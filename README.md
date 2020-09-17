@@ -9,4 +9,3 @@ a different (more human readable) filename format among other things;
 [pipe-logger](https://crates.io/crates/pipe-logger) except that it doesn't
 ignore pre-existing logs; and many [other
 tools](https://superuser.com/a/291397).
-
