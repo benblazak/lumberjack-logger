@@ -1,5 +1,5 @@
 # lumberjack-logger
-Log to rolling files from stdin
+Log to rolling files from stdin.
 
 A small command line wrapper around
 [lumberjack](https://github.com/natefinch/lumberjack).

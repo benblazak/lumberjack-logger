@@ -1,12 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/benblazak/lumberjack-logger/cmd/lumberjack-logger/cmd"
 
 func main() {
-	fmt.Println("hello world")
-	if true {
-		return
-	} else {
-		return
-	}
+	cmd.Execute()
 }
