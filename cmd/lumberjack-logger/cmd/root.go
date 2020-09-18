@@ -32,7 +32,7 @@ by Nate Finch).
 If you're planning to start a command and then leave it running after
 disconnecting the terminal, you will probably want to run it with nohup, e.g.
 
-	nohup yes < /dev/null 2> /dev/null | lumberjack-logger -s 1 -b 1 yeslog 2>&1 > /dev/null &
+	nohup yes "yes" < /dev/null 2> /dev/null | lumberjack-logger -s 1 -b 2 yeslog.txt 2>&1 > /dev/null & disown
 
 For more about that, see
 - & vs nohup vs disown: https://unix.stackexchange.com/a/148698
